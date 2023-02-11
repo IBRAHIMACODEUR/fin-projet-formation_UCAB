@@ -1,0 +1,1255 @@
+*  {
+  padding:0px; margin:0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+body{
+  overflow-x: hidden; 
+}
+html{
+  font-size: 0px;
+  background-color: #E5E5E5;
+}
+header{
+  width: 100%;
+  height: 260px;
+  border: 1px solid black;
+  background-color: black;
+}
+.main{
+ width: 100%;
+  height:80px;
+ background-color: #0b78df;
+ margin: 0px;
+overflow: hidden;
+position: fixed;
+z-index: 1;
+}
+.main .nav{
+  width: 80%;
+   height:80px;
+  float: right;
+}
+.nav ul li {
+  font-size: 15px;
+ float: right;
+  height: 50%;
+   text-align: center;
+   list-style:none;
+}
+.nav ul{
+ position: relative;
+ top: -35px;
+  height: 72px;
+  margin-right: 50px; 
+  padding: 0px;
+}
+.nav ul li a{
+  font-size: 14px;
+  padding:1px  10px;
+ height: 65px;
+  color: white;
+  line-height: 60px;
+  text-align: center;
+  text-decoration: none;
+  display: block;  
+}
+.nav ul li a:hover{
+  background-color:#0b78df;
+  opacity: 0.5;
+  transition: 0.3;
+}
+
+/*---------------------*/
+.tof{
+  position: relative;
+  top: 18px;
+ left :50px;
+  display: inline;
+}
+/*---------------------*/
+.tof p{
+font-size: 30px;
+font-weight: bolder;
+  color: aliceblue;
+}
+/*---------------------*/
+#about-mee {
+position: relative;
+top:-90px;
+left: 28%;
+}
+#about-mee p{
+  font-size: 80px;
+  color: #0b78df;
+  word-spacing: 20px;
+  font-weight: bolder;
+  font-family: 'Noto Serif', serif;
+font-family: 'Ubuntu Condensed', sans-serif;
+}
+.hi{
+  color:white;
+  font-size: 80px;
+  word-spacing: 5px;
+}
+#titre  h1{
+  font-size: 20px;
+  color :rgba(234,234,234,1);
+  position: relative;
+  top:10px;
+  left: -340px;
+  font-weight:bold;
+  font-family: 'Noto Serif', serif;
+font-family: 'Ubuntu Condensed', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+text-align: center;
+}
+
+/*---------------------*//*---------------------*//*---------------------*/
+#about-me{
+  position: relative;
+  top: -108px;
+  width: 100%; height: 300px;
+}
+#about-me img{
+  position: relative;
+  top: 50px;
+  left: 150px;
+  outline: 5px #0b78df solid ;
+}
+#about-me h1{
+color :black;
+font-size: 25px;
+position: relative;
+left: 400px;top: -60px;
+color: #0b78df;
+}
+#about-me p{
+  color :black;
+  font-size: 17px;
+  position: relative;
+  left: 400px;top: -25px;
+  color: black;
+  height: 100px; width: 700px;
+  line-height: 30px;
+}
+#about-me h2{
+  color :black;
+  font-size: 25px;
+  position: relative;
+  left: 400px;
+  top: 60px;
+  color: #0b78df;
+  height: 130px; 
+  width: 100%;
+  line-height: 30px;
+}
+#about-me .info{
+   width: 100%; height: 200px;
+  position: relative;
+  left: 400px;top: -80px;
+  color :black;
+  font-size: 15px;
+  color: gray;
+ line-height: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*-------------skils--------*//*---------skils------------*//*---------skils------------*//*---------------------*//*---------------------*//*---------------------*/
+#sliks{
+  position: relative;
+  top: 150px;
+  width: 100%; height: 780px;
+}
+#sliks h1{
+  color :black;
+font-size: 40px;
+position: relative;
+left: 150px;
+color: #0b78df;
+font-weight: bold;
+}
+.h{
+  position: relative;
+  top: 20px;
+  left: 150px;
+  color: gray;
+  font-size:22px;
+} 
+.html{
+  position: relative;
+  top: 30px;
+  left: 150px;
+  border: 1px solid #0b78df;
+ outline: solid #0b78df 1px;
+  width: 1080px; height: 30px;;
+}
+@keyframes load {
+  0% {background:r#0b78df}
+  50% {background:#0b78df }
+  1000% {background:#0b78df }
+  }
+  .html  .inside-html{
+      width: 1080px; height: 30px;;
+      animation-name: load; /* nom de l'animation */
+      animation-duration: 5s; /* temps de l'animation (4s) */
+     animation-iteration-count: infinite; /* nombre de boucles (infinie) */
+     animation-timing-function: linear;       
+  }
+  /*---------skils------------*/
+  .css{
+      position: relative;
+      top: 50px;
+      left: 150px;
+      border: 1px solid #0b78df;
+     outline: solid #0b78df 1px;
+      width: 1080px; height: 30px;; 
+  }
+  .h-css{
+      position: relative;
+      top: 45px;
+      left: 150px;
+      color: gray;
+      font-size:22px;
+  } 
+  .inside-css{
+      width: 940px; height: 30px;;
+      animation-name: load; /* nom de l'animation */
+      animation-duration: 6s; /* temps de l'animation (4s) */
+     animation-iteration-count: infinite; /* nombre de boucles (infinie) */
+     animation-timing-function: linear;
+  }
+  @keyframes load {
+      0% {background:r#0b78df}
+      50% {background:#0b78df }    
+      }
+       /*---------photoshop-----------*/
+  .photoshop{
+      position: relative;
+      top: 70px;
+      left: 150px;
+      border: 1px solid #0b78df;
+     outline: solid #0b78df 1px;
+      width: 1080px; height: 30px;;  
+  }
+  .h-photoshop{
+      position: relative;
+      top: 65px;
+      left: 150px;
+      color: gray;
+      font-size:22px;
+  } 
+  .inside-photoshop{
+      width: 870px; height: 30px;;
+      animation-name: load; /* nom de l'animation */
+      animation-duration: 6s; /* temps de l'animation (4s) */
+     animation-iteration-count: infinite; /* nombre de boucles (infinie) */
+     animation-timing-function: linear;
+  }
+  @keyframes load {
+      0% {background:r#0b78df}
+      20% {background:#0b78df }     
+      }
+          /*---------ILLUSTRATOR-----------*/
+  .illustrator{
+      position: relative;
+      top: 90px;
+      left: 150px;
+      border: 1px solid #0b78df;
+     outline: solid #0b78df 1px;
+      width: 1080px; height: 30px;;  
+  }
+  .h-illustrator{
+      position: relative;
+      top: 85px;
+      left: 150px;
+      color: gray;
+      font-size:22px;
+  } 
+  .inside-illustrator{
+      width: 810px; height: 30px;;
+      animation-name: load; /* nom de l'animation */
+      animation-duration: 6s; /* temps de l'animation (4s) */
+     animation-iteration-count: infinite; /* nombre de boucles (infinie) */
+     animation-timing-function: linear;
+  }
+  @keyframes load {
+      0% {background:r#0b78df}
+      20% {background:#0b78df }    
+      }
+      /*---------WORDPRESS-----------*/
+  .wordpress{
+      position: relative;
+      top: 110px;
+      left: 150px;
+      border: 1px solid #0b78df;
+     outline: solid #0b78df 1px;
+      width: 1080px; height: 30px;;  
+  }
+  .h-wordpress{
+      position: relative;
+      top: 105px;
+      left: 150px;
+      color: gray;
+      font-size:22px;
+  } 
+  .inside-wordpress{
+      width: 720px; height: 30px;;
+      animation-name: load; /* nom de l'animation */
+      animation-duration: 6s; /* temps de l'animation (4s) */
+     animation-iteration-count: infinite; /* nombre de boucles (infinie) */
+     animation-timing-function: linear;
+  }
+  @keyframes load {
+      0% {background:r#0b78df}
+      20% {background:#0b78df }    
+      }
+           /*---------JQUERY-----------*/
+  .jquery{
+      position: relative;
+      top: 130px;
+      left: 150px;
+      border: 1px solid #0b78df;
+     outline: solid #0b78df 1px;
+      width: 1080px; height: 30px;;  
+  }
+  .h-jquery{
+      position: relative;
+      top: 125px;
+      left: 150px;
+      color: gray;
+      font-size:19px;
+  } 
+  .inside-jquery{
+      width: 720px; height: 30px;;
+      animation-name: tele; /* nom de l'animation */
+      animation-duration: 6s; /* temps de l'animation (4s) */
+     animation-iteration-count: infinite; /* nombre de boucles (infinie) */
+     animation-timing-function: linear;
+  }
+  @keyframes tele {
+      0% {background:r#0b78df}
+      20% {background:#0b78df }
+      }
+      /*-------------EXPERIENCE--------*//*---------EXPERIENCE------------*//*---------EXPERIENCE------------*//*---------EXPERIENCE------------*//*-------EXPERIENCE--------------*//*--------EXPERIENCE-------------*/
+      #experience{
+          position: relative;
+          top: -35px;
+         left: -30px;
+          width: 100%; height: 750px;
+          background-color: #0b78df;
+      }
+      #experience h1{
+          color :black;
+        font-size: 40px;
+        position: relative;
+       left: 150px;
+       top: 70px;
+        color: white;
+        font-weight: bold;
+      }
+      #experience p{
+          position: relative;
+          left: 150px;
+          top: 75px;
+          color :white;
+          font-size: 18px;
+          padding-top: 20px;
+          line-height: 30px;      
+      }
+      .mymaterial{
+          position: relative;
+          top: 130px;
+          left: 150px;
+          width: 1040px; height: 350px;          
+      }
+      .photo{
+         width: 240px; height: 350px;
+      background-color: aliceblue;
+     float: right;
+     margin-left: 18px;
+      }
+      .photo:hover{
+        visibility: visible;
+        opacity: 1;
+        margin-top: -40px;
+        transition-delay: 0.3s;
+        border-radius: 25px;
+      }
+      .photo .ttt{         
+        color: gray;
+        font-size: 20px; 
+        position: relative; top: 15px; left: 35px;
+        text-align: center;
+       }
+       .photo img{         
+       position: relative;
+       top: 35px;
+       }
+       .photo .tt2{          
+        color: gray;
+        font-size: 20px;
+          position: relative;
+          top: 55px; left: 20px;      
+          height: 20px;
+          display: block;
+                width: 150px;  
+          }           
+          /*-------------education--------*//*---------education------------*//*---------education------------*//*---------education------------*//*-------EXPERIENCE--------------*//*--------EXPERIENCE-------------*/
+      #education{
+          position: relative;
+          top: -10px;
+         left: -30px;
+          width: 100%; height: 750px;
+      }
+      #education h1{
+          color: #0b78df;
+        font-size: 40px;
+        position: relative;
+       left: 150px;
+       top: 70px;      
+        font-weight: bold;
+      }
+      #education p{
+          position: relative;
+          left: 150px;
+          top: 75px;
+          color :black;
+          font-size: 18px;
+          padding-top: 20px;
+          line-height: 30px;      
+      }
+      .material{
+          position: relative;
+          top: 130px;
+          left: 150px;
+          width: 1040px; height: 350px;   
+      }      
+      .image{
+         width: 240px; height: 350px;
+      background-color: aliceblue;
+     float: right;
+     margin-left: 18px;
+      }
+      .image:hover{
+        visibility: visible;
+        opacity: 1;
+        margin-top: -40px;
+        transition-delay: 0.3s;
+        border-radius: 30px;
+      }
+      .image .tt{         
+        color: gray;
+        font-size: 20px; 
+        position: relative; top: 20px; left: 35px;
+        text-align: center;
+       }
+       .image img{        
+       position: relative;
+       top: 35px;
+       }
+       .image .tt2{          
+        color: gray;
+        font-size: 20px;
+          position: relative;
+          top: 55px; left: 20px;       
+          height: 20px;
+          display: block;
+                width: 150px;        
+          }
+          .image h4{          
+              color: #0b78df;
+              font-size: 16px;
+                position: relative;
+                bottom:  -20px; left: -0px;               
+                display: block;
+                width: 150px;       
+           }          
+   /*-------------portfolio--------*//*---------portfolio------------*//*---------portfolio------------*/
+          #portfolio{
+          position: relative;
+          top: -30px;
+         left: -30px;
+          width: 100%; height: 655px; 
+          }
+          .hportfolio{
+              width:110%; height: 195px;
+              position: relative;
+              top: -1px;
+             left: -30px;
+             background-color: #0b78df;
+          }
+          #portfolio h1{
+              color:  white;
+              font-size: 30px;
+              position: relative;
+              left: 150px;
+              top: 70px;
+               font-weight: bold;
+               display: block;
+               width: 1000px;
+              }
+ /*-------------TESTIMONIAL--------*//*---------TESTIMONIAL------------*//*---------TESTIMONIAL------------*//*---------TESTIMONIAL------------*//*-------TESTIMONIAL--------------*//*--------TESTIMONIAL-------------*/
+ #testimonial{
+  position: relative;
+  top: -35px;
+ left: -30px;
+  width: 110%; height: 750px;
+  background-color: #0b78df;
+}
+#testimonial h1{
+  color :black;
+font-size: 40px;
+position: relative;
+left: 150px;
+top: 70px;
+color: white;
+font-weight: bold;
+}
+.presentation{
+  position: relative;
+  top: 130px;
+  left:   20px;
+  width: 1150px; height: 350px; 
+}
+.photo-test{
+ width: 1000px; height: 400px;
+background-color: aliceblue;
+float: none;
+margin-left: 200px;
+}
+.tt{
+color: #0b78df;
+font-size: 23px; 
+position: relative; top: -160px; left: 520px;
+text-align: center;
+}
+.photo-test img{
+position: relative;
+top: 60px;
+left: -90px;
+}
+.photo-test .tt2{
+  color: black;
+font-size: 22px;
+  position: relative;
+  top: -150px; 
+  left: 330px;
+  height: 340px;
+  display: block;
+   width: 630px;
+  }
+  .photo-test h4{ 
+      color: #0b78df;
+      font-size: 16px;
+        position: relative;
+        bottom:  -20px; left: -0px;       
+        display: block;
+        width: 150px;
+   }  
+   /*-------------blog--------*//*---------blog------------*//*---------blog------------*/
+   #blog{
+      position: relative;
+      top: -10px;
+     left: 10px;
+      width: 100%; height: 890px;
+      
+  }
+  #blog h1{
+      color: #0b78df;
+    font-size: 60px;
+    position: relative;
+   left: 150px;
+   top: 70px;  
+    font-weight: bold;
+  }
+  #blog p{
+      position: relative;
+      left: 150px;
+      top: 75px;
+      color :black;
+      font-size: 18px;
+      padding-top: 20px;
+      line-height: 30px;  
+  }
+  .articls{
+      position: relative;
+      top: 130px;
+      left: 70px;
+      width: 1140px; height: 450px;        
+  }
+  .arti:hover{
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.3s;
+    border-radius: 35px;
+  }
+  .arti{
+     width: 550px; height: 450px;
+  background-color: #FFFFFF;
+ float: right;
+ margin-left: 18px;
+  box-shadow: 3px 2px 2px 3px beige;   
+  border-radius: 35px;
+  }
+  .arti .title{     
+    color: #0b78df;
+    font-size: 20px; 
+    position: relative; top:5px; left: 90px;
+    text-align: center;
+   }
+   .arti img{    
+   position: relative;
+   top: 0px;
+   width: 100%;
+   padding: 4px;
+   border-radius: 25px;
+   }
+   .arti .tt2{      
+    color: gray;
+    font-size: 14px;
+      position: relative;
+      top: 20px; left: 40px;
+   
+      height: 20px;
+      display: block;
+            width: 150px;
+      }
+      .parag {     
+          color: gray;
+          font-size: 15px;     
+          position: relative;          
+          width: 550px; height: 130px;        
+          border-bottom: 2px solid #ebedec;
+        top:30px; left: 5px;
+        
+        text-indent: 15px;
+       }     
+      /*-------------CONTACT--------*//*---------CONTACT------------*//*---------CONTACT------------*//*---------CONTACT------------*//*-------CONTACT--------------*//*--------CONTACT-------------*/
+ #contact{
+  position: relative;
+  top: 35px;
+ left: -30px;
+  width: 110%; height: 300px;
+  background-color: #0b78df;
+}
+#contact h1{
+  color :black;
+font-size: 40px;
+position: relative;
+left: 250px;
+top: 10px;
+color: white;
+font-weight: bold;
+}
+#contact p{
+  position: relative;
+  left: 250px;
+  top: 25px;
+  color :white;
+  font-size: 25px;
+  padding-top: 20px;
+  line-height: 30px;
+}
+
+@media screen and (max-width: 900px){
+  header{
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+    background-color: black;
+  }
+  #about-mee p{
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .hi{
+    width: 25px;
+    font-size: 25px;
+  }
+  #titre  h1{
+    width: 25px;
+    font-size: 25px;
+  }
+  
+  .main .nav{
+    width: 80%;
+     height:80px;
+    float: right;
+    display: inline;
+    margin-bottom: 20px;
+  }
+
+  .nav ul li {
+    font-size: 10px;
+    margin-right: 5px;
+
+  }
+  #contact{
+    position: relative;
+    top: 75px;
+   left: -90px;
+    width: 120%; height: 200px;
+    
+  }
+  #contact h1{
+    color :black;
+  font-size: 30px;
+  position: relative;
+  left: 250px;
+  top: -20px;
+  color: white;
+  font-weight: bold;
+  }
+  #contact p{
+    position: relative;
+    left: 250px;
+    top: 5px;
+    color :white;
+    font-size: 27px;
+    padding-top: 20px;
+    line-height: 20px;
+  }
+
+
+  #blog{
+    position: relative;
+    top: 100px;
+   left: -60px;
+    width: 10%; height: 890px;
+    
+}
+#blog h1{
+    color: #0b78df;
+  font-size: 20px;
+  position: relative;
+ left: 150px;
+ top: 120px;  
+  font-weight: bold;
+}
+#blog p{
+    position: relative;
+    left: 50px;
+    top: 55px;
+    color :black;
+    font-size: 8px;
+    padding-top: 10px;
+    line-height: 20px;  
+}
+.articls{
+    position: relative;
+    top: 130px;
+    left: 70px;
+    width: 240px; height: 250px;        
+}
+.arti:hover{
+  visibility: visible;
+  opacity: 1;
+  margin-top: -40px;
+  transition-delay: 0.3s;
+  border-radius: 35px;
+}
+.arti{
+   width: 350px; height: 350px;
+background-color: #FFFFFF;
+float: left;
+margin-left: 18px;
+box-shadow: 3px 2px 2px 3px beige;   
+border-radius: 35px;
+}
+.arti .title{     
+  color: #0b78df;
+  font-size: 10px; 
+  position: relative; top:5px; left: 90px;
+  text-align: center;
+ }
+ .arti img{    
+ position: relative;
+ top: 0px;
+ width: 100%;
+ padding: 4px;
+ border-radius: 25px;
+ }
+ .arti .tt2{      
+  color: gray;
+  font-size: 14px;
+    position: relative;
+    top: 20px; left: 40px;
+ 
+    height: 20px;
+    display: block;
+          width: 150px;
+    }
+    .parag {     
+        color: gray;
+        font-size: 10px;     
+        position: relative;          
+        width: 300px; height: 80px;        
+        border-bottom: 2px solid #ebedec;
+      top: 10px; left: 5px;
+      
+      text-indent: 15px;
+     }  
+
+
+
+     #about-me{
+      position: relative;
+      top: -18px;
+      width: 100%; height: 300px;
+    }
+    #about-me img{
+      position: relative;
+      top: -10px;
+      left: 30px;
+      outline: 5px #0b78df solid ;
+      
+    }
+    #about-me h1{
+    color :black;
+    font-size: 15px;
+    position: relative;
+    left: 260px;top: -160px;
+    color: #0b78df;
+    }
+    #about-me p{
+      color :black;
+      font-size: 17px;
+      position: relative;
+      left: 200px;top: -150px;
+      color: black;
+      height: 100px; width: 250px;
+      line-height: 20px;
+    }
+    #about-me h2{
+      color :black;
+      font-size: 15px;
+      position: relative;
+      left: 200px;
+      top: 50px;
+      color: #0b78df;
+      height: 230px; 
+      width: 100%;
+      line-height: 30px;
+    }
+    #about-me .info{
+       width: 100%; height: 400px;
+      position: relative;
+      left: 200px;top: 10px;
+      color :black;
+      font-size: 15px;
+      color: gray;
+     line-height: 80px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    
+    #sliks{
+      position: relative;
+      top: 150px;
+      width: 100%; height: 780px;
+    }
+    #sliks h1{
+      color :black;
+    font-size: 20px;
+    position: relative;
+    left: 70px;
+    color: #0b78df;
+    font-weight: bold;
+    }
+    .h{
+      position: relative;
+      top: 10px;
+      left: 50px;
+      color: gray;
+      font-size:12px;
+    } 
+    .html{
+      position: relative;
+      top: 10px;
+      left: 50px;
+      border: 1px solid #0b78df;
+     outline: solid #0b78df 1px;
+      width: 380px; height: 20px;;
+    }
+    @keyframes load {
+      0% {background:r#0b78df}
+      20% {background:#0b78df }
+      100% {background:#0b78df }
+      }
+      .html  .inside-html{
+          width: 380px; height: 20px;;
+          animation-name: load; /* nom de l'animation */
+          animation-duration: 5s; /* temps de l'animation (4s) */
+         animation-iteration-count: infinite; /* nombre de boucles (infinie) */
+         animation-timing-function: linear;       
+      }
+      /*---------skils------------*/
+      .css{
+          position: relative;
+          top: 20px;
+          left: 50px;
+          border: 1px solid #0b78df;
+         outline: solid #0b78df 1px;
+          width: 380px; height: 20px;; 
+      }
+      .h-css{
+          position: relative;
+          top: 15px;
+          left: 50px;
+          color: gray;
+          font-size:12px;
+      } 
+      .inside-css{
+          width: 340px; height: 20px;;
+          animation-name: load; /* nom de l'animation */
+          animation-duration: 6s; /* temps de l'animation (4s) */
+         animation-iteration-count: infinite; /* nombre de boucles (infinie) */
+         animation-timing-function: linear;
+      }
+      @keyframes load {
+          0% {background:r#0b78df}
+          50% {background:#0b78df }    
+          }
+           /*---------photoshop-----------*/
+      .photoshop{
+          position: relative;
+          top: 30px;
+          left: 50px;
+          border: 1px solid #0b78df;
+         outline: solid #0b78df 1px;
+          width: 380px; height: 20px;;  
+      }
+      .h-photoshop{
+          position: relative;
+          top: 25px;
+          left: 50px;
+          color: gray;
+          font-size:12px;
+      } 
+      .inside-photoshop{
+          width: 270px; height: 20px;;
+          animation-name: load; /* nom de l'animation */
+          animation-duration: 6s; /* temps de l'animation (4s) */
+         animation-iteration-count: infinite; /* nombre de boucles (infinie) */
+         animation-timing-function: linear;
+      }
+      @keyframes load {
+          0% {background:r#0b78df}
+          20% {background:#0b78df }     
+          }
+              /*---------ILLUSTRATOR-----------*/
+      .illustrator{
+          position: relative;
+          top: 40px;
+          left: 50px;
+          border: 1px solid #0b78df;
+         outline: solid #0b78df 1px;
+          width: 380px; height: 20px;;  
+      }
+      .h-illustrator{
+          position: relative;
+          top: 40px;
+          left: 50px;
+          color: gray;
+          font-size:12px;
+      } 
+      .inside-illustrator{
+          width: 210px; height: 20px;;
+          animation-name: load; /* nom de l'animation */
+          animation-duration: 6s; /* temps de l'animation (4s) */
+         animation-iteration-count: infinite; /* nombre de boucles (infinie) */
+         animation-timing-function: linear;
+      }
+      @keyframes load {
+          0% {background:r#0b78df}
+          20% {background:#0b78df }    
+          }
+          /*---------WORDPRESS-----------*/
+      .wordpress{
+          position: relative;
+          top: 50px;
+          left: 50px;
+          border: 1px solid #0b78df;
+         outline: solid #0b78df 1px;
+          width: 380px; height: 20px;;  
+      }
+      .h-wordpress{
+          position: relative;
+          top: 45px;
+          left: 50px;
+          color: gray;
+          font-size:12px;
+      } 
+      .inside-wordpress{
+          width: 220px; height:20px;;
+          animation-name: load; /* nom de l'animation */
+          animation-duration: 6s; /* temps de l'animation (4s) */
+         animation-iteration-count: infinite; /* nombre de boucles (infinie) */
+         animation-timing-function: linear;
+      }
+      @keyframes load {
+          0% {background:r#0b78df}
+          20% {background:#0b78df }    
+          }
+               /*---------JQUERY-----------*/
+      .jquery{
+          position: relative;
+          top: 60px;
+          left: 50px;
+          border: 1px solid #0b78df;
+         outline: solid #0b78df 1px;
+          width: 380px; height: 20px;;  
+      }
+      .h-jquery{
+          position: relative;
+          top: 60px;
+          left: 50px;
+          color: gray;
+          font-size:12px;
+      } 
+      .inside-jquery{
+          width: 320px; height: 20px;;
+          animation-name: tele; /* nom de l'animation */
+          animation-duration: 6s; /* temps de l'animation (4s) */
+         animation-iteration-count: infinite; /* nombre de boucles (infinie) */
+         animation-timing-function: linear;
+      }
+      @keyframes tele {
+          0% {background:r#0b78df}
+          20% {background:#0b78df }
+          }
+
+
+
+
+          #experience{
+            position: relative;
+            top: -235px;
+           left: -30px;
+            width: 130%; height: 1600px;
+            background-color: #0b78df;
+        }
+        #experience h1{
+            color :black;
+          font-size: 20px;
+          position: relative;
+         left: 50px;
+         top: 30px;
+          color: white;
+          font-weight: bold;
+        }
+        #experience p{
+            position: relative;
+            left: 50px;
+            top: 25px;
+            color :white;
+            font-size: 11px;
+            padding-top: 10px;
+            line-height: 20px;      
+        }
+        .mymaterial{
+            position: relative;
+            top: 10px;
+            left: 50px;
+            width: 340px; height: 130px;          
+        }
+        .photo{
+           width: 240px; height: 300px;
+        background-color: aliceblue;
+       float: center;
+       margin-left: 8px;
+       margin-top: 50px;
+        }
+        .photo:hover{
+          visibility: visible;
+          opacity: 1;
+          margin-top: -40px;
+          transition-delay: 0.3s;
+          border-radius: 25px;
+        }
+        .photo .ttt{         
+          color: gray;
+          font-size: 15px; 
+          position: relative; top: 15px; left: 35px;
+          text-align: center;
+         }
+         .photo img{         
+         position: relative;
+         top: 25px;
+         font-size: -20px;
+  
+         }
+         .photo .tt2{          
+          color: gray;
+          font-size: 20px;
+            position: relative;
+            top: 45px; left: 35px;      
+            height: 20px;
+            display: block;
+                  width: 20px;  
+            }    
+            
+            
+            #education{
+              position: relative;
+              top: -70px;
+             left: -30px;
+              width: 100%; height: 750px;
+          }
+          #education h1{
+              color: #0b78df;
+            font-size: 20px;
+            position: relative;
+           left: 50px;
+           top: -150px;      
+            font-weight: bold;
+          }
+          #education p{
+              position: relative;
+              left: 50px;
+              top: -165px;
+              color :black;
+              font-size: 15px;
+              padding-top: 25px;
+              line-height: 25px;      
+          }
+          .material{
+            position: relative;
+            top:-160px;
+            left: 150px;
+            width: 240px; height: 130px
+          }      
+          .image{
+            width: 240px; height: 300px;
+            background-color: aliceblue;
+           float: center;
+           margin-left: 8px;
+           margin-top: 20px;
+          }
+          .image:hover{
+            visibility: visible;
+            opacity: 1;
+            margin-top: -40px;
+            transition-delay: 0.3s;
+            border-radius: 30px;
+          }
+          .image .tt{         
+            color: gray;
+            font-size: 10px; 
+            position: relative; top: 20px; left: 35px;
+            text-align: center;
+           }
+           .image img{        
+           position: relative;
+           top: 35px;
+           }
+           .image .tt2{          
+            color: gray;
+            font-size: 10px;
+              position: relative;
+              top: 55px; left: 20px;       
+              height: 20px;
+              display: block;
+                    width: 150px;        
+              }
+              .image h4{          
+                  color: #0b78df;
+                  font-size: 16px;
+                    position: relative;
+                    bottom:  -20px; left: -0px;               
+                    display: block;
+                    width: 150px;       
+               }      
+
+
+
+
+
+               #testimonial{
+                position: relative;
+                top: 195px;
+               left: -30px;
+                width: 110%; height: 750px;
+                background-color: #0b78df;
+              }
+              #testimonial h1{
+                color :black;
+              font-size: 20px;
+              position: relative;
+              left: 50px;
+              top: 250px;
+              color: white;
+              font-weight: bold;
+              }
+              .presentation{
+                position: relative;
+                top: 290px;
+                left:   -130px;
+                width: 350px; height: 250px; 
+              }
+              .photo-test{
+               width: 600px; height: 200px;
+              background-color: aliceblue;
+              float: none;
+              margin-left: 200px;
+              }
+              .tt{
+              color: #0b78df;
+              font-size: 13px; 
+              position: relative; top: -60px; left: 220px;
+              text-align: center;
+              }
+              .photo-test img{
+              position: relative;
+              top: 0px;
+              left: -80px;
+              }
+              .photo-test .tt2{
+                color: black;
+              font-size: 12px;
+                position: relative;
+                top: -200px; 
+                left: 170px;
+                height: 340px;
+                display: block;
+                 width: 300px;
+                }
+                .photo-test h4{ 
+                    color: #0f0607;
+                    font-size: 16px;
+                      position: relative;
+                      bottom:  -20px; left: -0px;       
+                      display: block;
+                      width: 150px;
+                 }  
+
+
+
+
+                 #portfolio{
+                  position: relative;
+                  top: -30px;
+                 left: -30px;
+                  width: 100%; height: 655px; 
+                  }
+                  .hportfolio{
+                      width:110%; height: 195px;
+                      position: relative;
+                      top: 801px;
+                     left: -30px;
+                     background-color: #0b78df;
+                  }
+                  #portfolio h1{
+                      color:  white;
+                      font-size: 30px;
+                      position: relative;
+                      left: 50px;
+                      top: 70px;
+                       font-weight: bold;
+                       display: block;
+                       width: 600px;
+                      }
+                 
+
+}              
